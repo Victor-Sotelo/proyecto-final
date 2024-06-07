@@ -1,0 +1,56 @@
+/* Importar Google Fonts */
+
+
+
+header, footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+header {
+    background-color: #84BFB4;
+    height: 100px;
+}
+
+footer {
+    background-color: #A8BFBB;
+    height: 80px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+    padding: 0 10px;
+}
+
+footer nav ul {
+    justify-content: start;
+    padding: 0 30px;
+}
+
+footer nav ul li {
+    margin-right: 40px;
+}
+
+footer nav ul li img {
+    width: 40px;
+    height: 40px;
+}
+
+
+
+
+

@@ -1,0 +1,55 @@
+body{
+background-color: #A8BFBB;
+}
+
+.imagen-loving{
+    width: 15.625rem;
+    height: 18.75rem;
+    border-radius: 5px;
+    align-items: center;
+
+}
+
+
+.main-index{
+    width: 100%;
+    margin: auto;
+    background-color: #A8BFBB;
+    .section-principal{
+        padding: 20px;
+        text-align: left;
+        color: black;
+        font-size: 1.875rem;
+        background-color: none;
+    }
+    .section-secundaria{
+        @extend .section-principal;
+    }
+    .section-terciaria{
+        @extend .section-principal;
+        padding: 10px;
+        padding-bottom: 10px;
+    }
+}
+
+.clase1{
+    font-size: 1.25rem;
+    background-color: lightblue;
+    text-align: right;
+    color: lightgreen;
+}
+
+.clase2{
+    @extend .clase1;
+    background-color: lightcoral;
+}
+
+.clase3{
+    @extend .clase2;
+    font-size: .625rem;
+}
+
+
+.grid{
+    @include grid(repeat(2,1fr), repeat(3,1fr), center, center, "item1 item1" "item2 item2")
+} 

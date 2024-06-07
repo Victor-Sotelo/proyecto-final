@@ -1,0 +1,6 @@
+@media (max-width: 768px){
+    header nav ul, footer nav ul, main {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}

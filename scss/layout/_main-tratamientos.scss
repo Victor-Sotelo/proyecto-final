@@ -1,0 +1,65 @@
+body{
+    background-color: #A8BFBB;
+   }
+   
+   .imagen-loving{
+       width: 15.625rem;
+       height: 18.75rem;
+       border-radius: 5px;
+       align-items: center;
+       
+   }
+   
+   .foto{
+    padding-left: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    width: 100px;
+    height: 100px;
+}
+
+   .trata{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;    
+    align-items: center;
+    text-align: center;
+   }
+    .img-trata{
+        width: 31.25rem;
+        height: 31.25rem;
+        border-radius: 5px;
+        box-shadow: 1px 1px 5px gray;
+    }
+    
+    .card .img-trata{
+        width: 100%;
+        height: 80%;
+     
+    }
+
+   
+   .main-index{
+       width: 100%;
+       margin: auto;
+       background-color: #A8BFBB;
+       .section-principal{
+           text-align: left;
+           color: black;
+           font-size: 1.875rem;
+           background-color: none;
+       }
+       .section-secundaria{
+           @extend .section-principal;
+       }
+       .section-terciaria{
+           @extend .section-principal;
+           padding: 10px;
+           padding-bottom: 10px;
+       }
+   }
+   
+
+

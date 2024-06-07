@@ -1,0 +1,5 @@
+@media (max-width: 320px) {
+    header nav ul, footer nav ul, main {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,34 @@
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+/**primero siempore las utilidades**/
+@import "./utilities/variable";
+@import "./utilities/maps"; 
+@import "./utilities/mixins";
+
+/**luego van los bloqques que corresponden a la carpeta base**/
+
+@import "./base/reset";
+@import "./base/tipografias";
+
+/**luego todo lo correspondiente a layout**/
+
+@import "./layout/header";
+@import "./layout/main-index";   
+@import "./layout/main-contacto";
+@import "./layout/main-nosotros";
+@import "./layout/footer";
+
+/** por ultimo va todo lo correspondiente a los componentes**/
+
+@import "./components/cards";
+
+/** como se llaman los partials de los mega querys)?  **/
+
+@import "./layout/media/media1024";
+@import "./layout/media/media768";
+@import "./layout/media/media320";
